@@ -298,14 +298,18 @@ body {
  display: flex;
  gap: 24px;
  margin-top: 8px;
+ justify-content: center;
+ align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--primarybrand-color-iris, #4D5AE5);
+
  }
 
  .icon-team-social-links {
-   background-color: var(--primarybrand-color-iris, #4D5AE5);
-   /*background-image: url(/images/icons.svg#instagram), url(/images/icons.svg#ellipse);*/
-   width: 40px;
-   height: 40px;
-   border-radius: 10%;
+  width: 16px;
+  height: 16px;
    border: 0px solid var(--subtitletext-color-ligntslate, #8E8F99);
    padding: 12px;
    fill: var(--whitebackground-color-wtite, #FFFFFF);
