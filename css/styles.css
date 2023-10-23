@@ -295,11 +295,12 @@ body {
  }
  
  .team-social-links-ul{
- display: flex;
- gap: 24px;
- margin-top: 8px;
- justify-content: center;
- align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-top: 8px;
+  justify-content: center;
+  align-items: center;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -310,9 +311,9 @@ body {
  .icon-team-social-links {
   width: 16px;
   height: 16px;
-   border: 0px solid var(--subtitletext-color-ligntslate, #8E8F99);
-   padding: 12px;
-   fill: var(--whitebackground-color-wtite, #FFFFFF);
+  /* border: 0px solid var(--subtitletext-color-ligntslate, #8E8F99);*/
+  padding: 12px;
+  fill: var(--whitebackground-color-wtite, #FFFFFF);
    
  }
 
